@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:LayoutOptionsVideo" x:Class="LayoutOptionsVideo.LayoutOptionsVideoPage">
+ <StackLayout Orientation="Vertical" BackgroundColor="Silver" >
+
+            <Grid>
+
+                <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+
+
+    
+         <StackLayout Orientation="Vertical"    Grid.Row="0" Grid.Column="0">
+            <Button Text="Cambiar Hor el Layout" Clicked="Handle_Horizontal_Clicked"></Button> <Label  x:Name="targetHL" Text="Fill" HorizontalTextAlignment="Center"  />
+            <Button Text="Cambiar Hor de el Label" Clicked="Handle_Horizontal_B_Clicked"></Button>  <Label  x:Name="targetHB" Text="Fill" HorizontalTextAlignment="Center" />
+         </StackLayout>
+
+         <StackLayout Orientation="Vertical"  Grid.Row="0" Grid.Column="1">
+            <Button Text="Cambiar Ver el Layout" Clicked="Handle_Vertical_Clicked"></Button> <Label  x:Name="targetVL" Text="Fill"  HorizontalTextAlignment="Center"/>
+            <Button Text="Cambiar Ver de el Label" Clicked="Handle_Vertical_B_Clicked"></Button>  <Label  x:Name="targetVB" Text="Fill" HorizontalTextAlignment="Center" />
+         </StackLayout>
+
+
+        <StackLayout Orientation="Vertical"  Grid.Row="1" Grid.Column="0">
+         <Button Text="Cambiar Orientación" Clicked="Handle_Orienntation_Clicked"></Button> <Label  x:Name="targetO" Text="Horizontal" HorizontalTextAlignment="Center" />
+        </StackLayout>
+
+            </Grid>
+         
+     <StackLayout x:Name="targetL" Orientation="Horizontal" BackgroundColor="Olive">
+        <Label  x:Name="targetB" BackgroundColor="Gray" Text="El Label" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+      </StackLayout>
+        
+  </StackLayout>
+
+</ContentPage>

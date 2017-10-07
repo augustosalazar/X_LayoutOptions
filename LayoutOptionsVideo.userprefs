@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{32E1C080-CFDA-481D-84CE-91CE8C65C541}|Default">
+  <MonoDevelop.Ide.ItemProperties.LayoutOptionsVideo.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.ItemProperties.LayoutOptionsVideo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3566D45E-7D12-4E57-AEA9-D083F3CE884B">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.LayoutOptionsVideo.iOS>
+  <MonoDevelop.Ide.Workbench ActiveDocument="LayoutOptionsVideo/LayoutOptionsVideoPage.xaml">
+    <Files>
+      <File FileName="LayoutOptionsVideo/LayoutOptionsVideoPage.xaml.cs" Line="170" Column="17" />
+      <File FileName="LayoutOptionsVideo/LayoutOptionsVideoPage.xaml" Line="6" Column="13" />
+      <File FileName="LayoutOptionsVideo/obj/Debug/LayoutOptionsVideo.LayoutOptionsVideoPage.xaml.g.cs" Line="13" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
